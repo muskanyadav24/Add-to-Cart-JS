@@ -49,6 +49,10 @@ Add-to-Cart-JS/
 2. Cart page image
 <img width="1920" height="896" alt="image" src="https://github.com/user-attachments/assets/e6f8d87e-f27b-42b1-b77b-679c5d249a6d" /><br><br>
 
+## 🎥 Demo
+
+👉 Live Demo Link: (https://app.netlify.com/projects/add-to-cart-js-my/overview)<br><br>
+
 ## 🙏 Special Thanks
 
 I would like to express my heartfelt **thank you to my Sir [keyurgohil13]**, whose guidance and support made this project journey possible. His mentorship motivated me to stay consistent and focused.
