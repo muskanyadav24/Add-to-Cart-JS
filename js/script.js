@@ -1812,7 +1812,7 @@ products.forEach((prod) => {
                                 </p>
                                 <strong class="card-text text-white">Stock: ${prod.stock}</strong><br>
                                     <button class="btn btn-primary mt-2" onclick="return addToCart(${prod.id})">Add to Cart</button>
-                                    <button class="btn btn-outline-success mt-2" data-id="${prod.id}" data-bs-toggle="modal" data-bs-target="#productModal">View Details</button>
+                                    <button type="button" class="btn btn-outline-success mt-2">View Details</button>
                                     
                         </div>
                     </div>
