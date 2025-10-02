@@ -51,7 +51,7 @@ Add-to-Cart-JS/
 
 ## 🎥 Demo
 
-👉 Live Demo Link: (https://app.netlify.com/projects/add-to-cart-js-my/overview)<br><br>
+👉 Live Demo Link: (https://add-to-cart-js-my.netlify.app/)<br><br>
 
 ## 🙏 Special Thanks
 
