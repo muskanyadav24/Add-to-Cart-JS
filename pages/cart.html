@@ -16,6 +16,15 @@
         .font-f {
             font-family: "Caveat", cursive;
         }
+        .card{
+            background-color: black;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
     </style>
 </head>
 
@@ -61,7 +70,7 @@
                 <div class="row">
                     <h2 class="text-white d-flex justify-content-center font-f">Your Cart Items</h2>
                     <div id="your-cart" class="row gy-4"></div>
-                    <div id="your-total" class="fw-bold mt-4 text-white d-flex justify-content-end fs-4 "></div>
+                    <button id="your-total" class="btn btn-outline-secondary fw-bold mt-4 text-white d-flex justify-content-end fs-4"></button>
                 </div>
             </div>
         </section>
