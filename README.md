@@ -40,21 +40,17 @@ Add-to-Cart-JS/
 - ⚡ HTML5
 - 🎨 CSS3
 - 🧩 Vanilla JavaScript (ES6)
-
+<br> 
 📸 Screenshots
+<br>
 
 1. Home Page image
-<img width="958" height="409" alt="image" src="https://github.com/user-attachments/assets/64c61dbb-a2b7-4026-ad79-f0585fa61900" /> <br> <br>2. Cart page image <br>
+<img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/cb6dfb24-4eb4-4727-b0ef-d33d571540b3" /><br><br>
+2. Cart page image
+<img width="1920" height="896" alt="image" src="https://github.com/user-attachments/assets/e6f8d87e-f27b-42b1-b77b-679c5d249a6d" /><br><br>
 
-<img width="728" height="329" alt="image" src="https://github.com/user-attachments/assets/e4c06e9f-775b-4943-85cd-73558ff552bf" /><br><br>
+## 🙏 Special Thanks
 
-🤝 Contributing
-
-Contributions are welcome! 🎉
-
-- Fork the repo
-- Create a new branch (feature-xyz)
-- Commit your changes
-- Push and create a PR 🚀
+I would like to express my heartfelt **thank you to my Sir [keyurgohil13]**, whose guidance and support made this project journey possible. His mentorship motivated me to stay consistent and focused.
 
 <p>⭐ If you like this project, don’t forget to star the repo!</p> 
