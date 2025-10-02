@@ -45,9 +45,9 @@ Add-to-Cart-JS/
 <br>
 
 1. Home Page image
-<img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/cb6dfb24-4eb4-4727-b0ef-d33d571540b3" /><br><br>
+<img width="959" height="407" alt="image" src="https://github.com/user-attachments/assets/e9b1a017-8ce1-4010-9aec-e29b01430465" /><br><br>
 2. Cart page image
-<img width="1920" height="896" alt="image" src="https://github.com/user-attachments/assets/e6f8d87e-f27b-42b1-b77b-679c5d249a6d" /><br><br>
+<img width="959" height="413" alt="image" src="https://github.com/user-attachments/assets/60fd39de-4462-435c-81cd-8e18f56267d9" /><br><br>
 
 ## 🎥 Demo
 
