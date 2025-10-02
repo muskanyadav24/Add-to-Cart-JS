@@ -4,19 +4,19 @@ cart.forEach(item => {
     let str ='';
     str += `
         <div class="col-12 col-md-6 col-lg-3 mb-3">
-            <div class="card h-100 bg-black text-white">
+            <div class="card h-100 bg-black text-white text-center">
                 <img src="${item.thumbnail}" class="card-img-top" alt="${item.name}">
                 <div class="card-body">
                     <h5 class="card-title">${item.name}</h5>
-                    <strong class="card-text text-danger">Price: $${item.price}</strong>
-                    <div class="d-flex align-items-center mb-2">
-                    <strong class="card-text pe-3 m-0">Quantity: ${item.quantity}</strong>
+                    <strong class="card-text text-success">Price: $${item.price}</strong>
+                    <div class="d-flex align-items-center mb-3 mt-2 justify-content-center">
                                 <button class="btn btn-sm btn-outline-light me-2" onclick="incrementQuantity(${item.id})">+</button>
+                                <strong class="card-text m-0">${item.quantity}</strong>
                                 <button class="btn btn-sm btn-outline-light ms-2" onclick="decrementQuantity(${item.id})">-</button>
                     </div>
                     <strong class="card-text">Subtotal: $${(item.price * item.quantity).toFixed(2)}</strong><br>
                     <div class="d-flex justify-content-center">
-                        <button class="btn btn-sm btn-outline-danger col-6 m-4 p-2" onclick="removeFromCart(${item.id})">Remove</button>
+                        <button class="btn btn-sm btn-outline-danger col-6 mt-3 p-2" onclick="removeFromCart(${item.id})">Remove</button>
                     </div>
                 </div>
             </div>
