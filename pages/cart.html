@@ -60,8 +60,22 @@
             <div class="container">
                 <div class="row">
                     <h2 class="text-white d-flex justify-content-center font-f">Your Cart Items</h2>
-                    <div id="your-cart" class="row gy-4"></div>
-                    <button id="your-total" class="btn btn-outline-secondary fw-bold mt-4 text-white d-flex justify-content-end fs-4"></button>
+                    <div class="row gy-4" id="your-cart"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="container my-5 d-flex justify-content-center">
+                <div class="card text-center text-white bg-dark shadow" style="width: 22rem; border-radius: 20px;">
+                    <div class="card-body">
+                        <h2 class="card-title text-info mb-4" style="text-shadow: 0 0 5px #00ffc3;"> Cart Summary</h2>
+                        <div class="card-text mb-2 p-2 bg-secondary rounded" id="your-total"></div>
+                        <div class="card-text mb-2 p-2 rounded text-danger" id="discount"></div>
+                        <div class="card-text mt-3 pt-3 border-top border-secondary fw-bold text-success" id="final">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
