@@ -34,8 +34,25 @@ cart.forEach(item => {
 });
 
 // total amount
-let yourTotal = document.getElementById('your-total');
-yourTotal.innerText = `Total amount : $${cart.reduce((acc, item) => acc + item.price * item.quantity, 0)}`;
+let totalAmount = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
+
+let discount = 0;
+let finalAmount = totalAmount;
+
+if (totalAmount >= 500) {
+  discount = totalAmount * 0.1; 
+  finalAmount = totalAmount - discount;
+}
+
+document.getElementById('your-total').innerText = `Total Amount: $${totalAmount.toFixed(2)}`;
+
+if (totalAmount >= 500) {
+    document.getElementById('discount').innerText = "Discount (10%): -$" + discount.toFixed(2);
+} else {
+    document.getElementById('discount').innerText = "No Discount Applied";
+}
+
+document.getElementById('final').innerText = `Final Amount: $${finalAmount.toFixed(2)}`;
 
 // increment (++)
 const incrementQuantity = (id) => {
