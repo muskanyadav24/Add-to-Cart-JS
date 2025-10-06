@@ -3,17 +3,18 @@ let cart = JSON.parse(localStorage.getItem('cart')) || [];
 cart.forEach(item => {
     let str ='';
     str += `
-        <div class="col-12 d-flex p-0 mb-3 align-items-center border rounded bg-black text-white">
+        <div class="col-12 d-flex p-3 mb-3 align-items-center border border-end-0 rounded bg-black text-white">
         <div class="col-2 text-center">
             <img src="${item.thumbnail}" class="rounded-start w-50" alt="${item.name}">
         </div>
-        <div class="col-2 text-center">
-            <h5 class="card-title m-0">${item.name}</h5>
+        <div class="col-3 text-center">
+            <h5 class="font-f text-info card-title mt-2">${item.name}</h5>
+            <p class="mt-3">${item.description}</p>
         </div>
         <div class="col-2 text-center">
             <strong class="card-text text-success">Price: $${item.price}</strong>
         </div>
-        <div class="col-2 text-center">
+        <div class="col-1 text-center">
             <p class="card-text m-0">
                 <button class="btn btn-sm btn-outline-light" onclick="decrementQuantity(${item.id})">-</button>
                 <span id="qty-${item.id}" class="mx-2">${item.quantity}</span>
