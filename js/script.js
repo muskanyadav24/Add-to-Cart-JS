@@ -1839,6 +1839,7 @@ function addToCart(id) {
       let string = {  
           "id": prd.id,    
           "thumbnail" : prd.thumbnail,
+          "description": prd.description,
           "name":prd.title,
           "quantity" : 1,
           "price" : prd.price
